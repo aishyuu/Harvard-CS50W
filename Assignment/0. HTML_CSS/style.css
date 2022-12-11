@@ -1,0 +1,41 @@
+.dark {
+  background-color: black;
+}
+
+.nav-bar {
+  padding: 20px;
+  text-align: center;
+}
+.nav-bar a {
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+}
+.nav-bar a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.nav-bar .col-5 {
+  text-align: right;
+}
+
+.main {
+  text-align: center;
+  padding-top: 50px;
+}
+.main form {
+  padding-top: 20px;
+}
+
+.search-button {
+  background-color: rgb(91, 91, 91);
+  border: rgb(91, 91, 91);
+  padding: 10px;
+  margin-top: 40px;
+  color: white;
+  border-radius: 8px;
+}
+.search-button:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
