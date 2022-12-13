@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <title>Document</title>
 <body class="dark">
-    <div class="row nav-bar">
-        <div class="col-1">
-            <a href="https://about.google">About</a>
-        </div>
-        <div class="col-6"></div>
-        <div class="col-5">
-            <a href="images.html">Images</a>
-            <a href="advanced.html">Advanced</a>
-        </div>
+    <div class="nav-bar">
+        <ul>
+            <li>
+                <a href="advanced.html">Advanced</a> 
+            </li>
+            <li>
+                <a href="images.html">Images</a> 
+            </li>
+        </ul>
     </div>
 
     <div class="main">
         <img src="holidays.gif" alt="logo">
-        <form>
-            <input type="text" size="52" placeholder="Search" name="search_term" />
-            <input class="search-button" type="submit" value="Google Search" />
+        <form method="get" action="https://google.com/search">
+            <div class="bar">
+                <input type="text" size="52" name="q" />
+            </div>
+            <br>
+            <div class="buttons">
+                <input class="search-button" type="submit" value="Google Search" />
+            </div>
         </form>
     </div>
 
