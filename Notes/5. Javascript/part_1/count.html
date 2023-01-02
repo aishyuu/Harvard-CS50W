@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script>
+        let counter = 0;
+        function count_up(){
+            counter++;
+            document.querySelector("h2").innerHTML = counter;
+        }
+        function count_down() {
+            counter--;
+            document.querySelector("h2").innerHTML = counter;
+        }
+    </script>
+</head>
+<body>
+    <h1>Number</h1>
+    <h2>0</h2>
+    <button onclick="count_up()">Count Up</button>
+    <button onclick="count_down()">Count Down</button>
+</body>
+</html>
